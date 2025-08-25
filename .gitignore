@@ -1,0 +1,8 @@
+#Ignorar KEY API
+.env
+
+#Ignorar datos persistidos
+vectorstore
+
+#Carpeta virtual
+.venv
