@@ -1,8 +1,8 @@
-# RAG Chatbot (Flask + LangChain)
+# RAG Chatbot (Flask + LangChain) Groq
 
 Este proyecto implementa un **Retrieval-Augmented Generation (RAG)** sencillo inspirado en el repo `ezeguins/chatbot`,
 pero usando dependencias modernas de LangChain. Por defecto usa **Chroma** como vector store local (sin coste)
-y permite alternar a **Pinecone** con variables de entorno.
+
 
 ## Estructura
 ```
@@ -21,7 +21,7 @@ y permite alternar a **Pinecone** con variables de entorno.
 
 ## Requisitos
 - Python 3.10+
-- Cuenta/OpenAI API key (para `gpt-4o-mini` o el modelo que prefieras).
+- Groq API key (para `meta-llama/llama-4-scout-17b-16e-instruct` o el modelo que prefieras).
 
 ## Instalación
 ```bash
