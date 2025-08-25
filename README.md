@@ -46,16 +46,6 @@ o
 python app.py
 ```
 
-## Cambiar a Pinecone (opcional)
-En `.env` define:
-```
-VECTOR_STORE=pinecone
-PINECONE_API_KEY=...
-PINECONE_INDEX=rag-chatbot
-PINECONE_ENV=us-east-1
-PINECONE_NAMESPACE=default
-```
-Ejecuta `python ingest.py` para reindexar en Pinecone y luego corre `app.py`.
 
 ## Notas
 - El historial de conversación se mantiene por `session_id` (cookie).
